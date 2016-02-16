@@ -1,0 +1,10 @@
+html, body{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(247, 247, 247, 0.98);
+}
+#main{
+  padding: 15px 0;
+  margin: auto;
+  text-align: center;
+}
