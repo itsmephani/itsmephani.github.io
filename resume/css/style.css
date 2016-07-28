@@ -114,6 +114,10 @@ profile projects project h5 {
   margin-bottom: 0;
 }
 
+profile projects project .PROJECTSPAN_CLASS {
+  line-height: 20px;
+}
+
 profile projects project:hover {
   box-shadow: 2px 4px 20px 2px #dfdfdf;
 }

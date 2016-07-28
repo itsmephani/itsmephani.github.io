@@ -31,7 +31,7 @@
         CLIENT: 'Own',
         SPAN: '20/07/15 - 22/11/15',
         RESPONSIBILITIES: 'Building REST API, Website, Admin Panel.',
-        LINK: '<a href="https://play.google.com/store/apps/details?id=yopickup.yopickup" target="_blank">Playstore</a>',
+        LINK: '<a href="https://play.google.com/store/apps/details?id=yopickup.yopickup" target="_blank" title="Playstore">Playstore</a>',
         DESCRIPTION: `Yopickup lets users to share ride with colleagues, 
             friends or anyone they choose. User can either use your Car or Bike to share ride.`
       },
@@ -168,15 +168,15 @@
   
   var PROJECT_HTML = 
       `<div class="row">
-          <div class="col col-md-6 PROJECTNAME_CLASS"><h5>PROJECT_NAME</h5></div>
-          <div class="col col-md-6 text-right PROJECTSPAN_CLASS"><h5>PROJECT_SPAN</h5></div>
+          <div class="col col-xs-6 col-sm-6 col-md-6 col-lg-6 PROJECTNAME_CLASS"><h5>PROJECT_NAME</h5></div>
+          <div class="col col-xs-6 col-sm-6 col-md-6 col-lg-6 text-right PROJECTSPAN_CLASS"><h6>PROJECT_SPAN</h6></div>
        </div>
        <div class="row">
-          <div class="col col-md-6">
+          <div class="col col-xs-6 col-sm-6 col-md-6 col-lg-6">
             <h6 class="PROJECTCOMPANY_CLASS">Company: PROJECT_COMPANY</h6>
             <h6 class="PROJECTCLIENT_CLASS">Client: PROJECT_CLIENT</h6>
           </div>
-          <div class="col col-md-6 text-right PROJECTLINK_CLASS"><h6>PROJECT_LINK</h6></div>
+          <div class="col col-xs-6 col-sm-6 col-md-6 col-lg-6 text-right PROJECTLINK_CLASS"><h6>PROJECT_LINK</h6></div>
        </div>
        <div class="row PROJECTDESCRIPTION_CLASS">
           <div class="col col-md-12">
