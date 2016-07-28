@@ -20,9 +20,10 @@
       }
       xhttp.onreadystatechange = function() {
         if (xhttp.readyState == 4 && xhttp.status == 200) {
-          document.querySelectorAll(component).forEach(function(componentRoot){
-            componentRoot.innerHTML = xhttp.responseText;
-          });
+          var componentElements = document.querySelectorAll(component);
+          for (var i = 0; i < componentElements.length; i++) {
+            componentElements[i].innerHTML = xhttp.responseText;
+          }
         }
       };
       xhttp.open("GET", "components/" + component + ".html", true);
