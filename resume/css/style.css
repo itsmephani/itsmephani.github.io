@@ -89,6 +89,10 @@ sidebar aside {
 }*/
 
 /** profile **/
+profile {
+  padding: 0 5%;
+}
+
 profile projects {
   display: flex;
   height: 100%;
