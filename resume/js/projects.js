@@ -1,6 +1,28 @@
 (function () {
   
   var projects = [
+    {
+        NAME: 'Workflow Quality',
+        COMPANY: 'HCL Technologies',
+        CLIENT: 'Google',
+        SPAN: '08/08/2016 - Present',
+        RESPONSIBILITIES: 'Done UI part of the application.',
+        LINK: '',
+        DESCRIPTION: `Workflow Quality is unified Quality Management System (QMS) which enables quality reviews of 
+                      workflows in gTech Ads Global Campaign Operations. It encompass end to end quality processes 
+                      (sampling, evaluation, appeal, audit (quality of quality), escalation management, root cause analysis, 
+                      customer satisfaction and overall reporting). This would comprise the overall qualitative health of
+                      the workflow.`
+      },
+     {
+        NAME: 'Audit Hub',
+        COMPANY: '',
+        CLIENT: '',
+        SPAN: '17/06/2016 - Present',
+        RESPONSIBILITIES: 'File Upload, Charts.',
+        LINK: '',
+        DESCRIPTION: `Audit Hub is a  financial compliance platform to streamline regulatory compliance in Indian companies.`
+      },
       {
         NAME: 'DBMCM',
         COMPANY: 'HCL Technologies',
