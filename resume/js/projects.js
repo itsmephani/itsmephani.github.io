@@ -5,7 +5,7 @@
         NAME: 'Workflow Quality',
         COMPANY: 'HCL Technologies',
         CLIENT: 'Google',
-        SPAN: '08/08/2016 - Present',
+        SPAN: '08/08/2016 - Till Date',
         RESPONSIBILITIES: 'Done UI part of the application.',
         LINK: '',
         DESCRIPTION: `Workflow Quality is unified Quality Management System (QMS) which enables quality reviews of 
@@ -18,7 +18,7 @@
         NAME: 'Audit Hub',
         COMPANY: '',
         CLIENT: '',
-        SPAN: '17/06/2016 - Present',
+        SPAN: '17/06/2016 - Till Date',
         RESPONSIBILITIES: 'File Upload, Charts.',
         LINK: '',
         DESCRIPTION: `Audit Hub is a  financial compliance platform to streamline regulatory compliance in Indian companies.`
@@ -39,7 +39,7 @@
         NAME: 'Calibre',
         COMPANY: 'HCL Technologies',
         CLIENT: 'Google',
-        SPAN: '11/02/2016 - Till Date',
+        SPAN: '11/02/2016 - 26/07/2016',
         RESPONSIBILITIES: 'Ad Lookup, Admin Reports.',
         LINK: '',
         DESCRIPTION: `Calibre is the ad review tool in google. The features include rendering various types of ad like text, 
