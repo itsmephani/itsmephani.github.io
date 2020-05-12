@@ -1,10 +1,109 @@
-html, body{
+@font-face {
+  font-family: Lato;
+  src: url(/public/fonts/Lato-Regular.ttf);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: var(--light);
+  margin: 0;
+  padding: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(247, 247, 247, 0.98);
+  font-family: Lato, sans-serif;
+  font-size: 16px;
+  overflow: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
-#main{
-  padding: 15px 0;
-  margin: auto;
-  text-align: center;
+
+body.light {
+  color: var(--dark);
+}
+
+body.dark {
+  background-color: var(--dark);
+  color: var(--light);
+}
+
+header {
+  height: 48px;
+  border-bottom: 2px solid var(--fade-light);
+}
+
+body.dark header {
+  border-bottom: 2px solid var(--fade-dark);
+}
+
+.main-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.title {
+  font-size: 4rem;
+  font-weight: bold;
+  position: relative;
+}
+
+.subtitle {
+  font-size: 3rem;
+  font-weight: bold;
+  position: relative;
+}
+
+.theme-picker {
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+}
+
+.theme-picker[data-value="light"] {
+  background-color: var(--light);
+}
+
+.theme-picker[data-value="dark"] {
+  background-color: var(--dark);
+}
+
+.tech-slider {
+  height: 16px;
+  font-weight: bold;
+}
+
+.tech-slider .slider div {
+  height: 16px;
+}
+
+.india {
+  background: linear-gradient(#ff9800, #f3f3f3, #4caf50);
+  color: var(--dark);
+  padding: 2px;
+}
+
+/* work */
+.timeline-container {
+  overflow: hidden;
+}
+
+.timeline-container .timeline {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.5 cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+.timeline .timeline-point {
+  flex-shrink: 0;
+  width: 100%;
+}
+
+.component {
+  display: none;
 }

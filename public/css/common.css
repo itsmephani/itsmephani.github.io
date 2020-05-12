@@ -1,0 +1,124 @@
+:root {
+  /* colors */
+  --light: #fdfffc;
+  --fade-light: #ddd;
+  --dark: #011627;
+  --fade-dark: #20272d;
+  --success: #2ec4b6;
+  --danger: #e71d36;
+  --warning: #ff9f1c;
+}
+
+.flex {
+  display: flex;
+}
+
+.layoutRow {
+  flex-direction: row;
+}
+
+.layoutColumn {
+  flex-direction: column;
+}
+
+.column {
+  flex: 1;
+}
+
+.justifyCenter {
+  justify-content: center;
+}
+
+.alignCenter {
+  align-items: center;
+}
+
+.light {
+  color: var(--light);
+}
+
+.dark {
+  color: var(--dark);
+}
+
+.success {
+  color: var(--success);
+}
+
+.warning {
+  color: var(--warning);
+}
+
+.danger {
+  color: var(--danger);
+}
+
+.bgLight {
+  background-color: var(--light);
+}
+
+.bgDark {
+  background-color: var(--dark);
+}
+
+.bgSuccess {
+  background-color: var(--success);
+}
+
+.bgWarning {
+  background-color: var(--warning);
+}
+
+.bgDanger {
+  background-color: var(--danger);
+}
+
+bold,
+.bold {
+  font-weight: bold;
+}
+
+small,
+.small {
+  font-size: 0.8rem;
+}
+
+.pad16 {
+  padding: 16px;
+}
+
+.pad32 {
+  padding: 32px;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.slider-container {
+  overflow-y: hidden;
+}
+
+.slider-container .slider {
+  animation: slideUp 10s ease-in infinite alternate-reverse;
+  background-image: repeating-linear-gradient(45deg, #2196f3, #00bcd4 100px);
+  background-clip: text;
+  -webkit-background-clip: text;
+  font-weight: bold;
+  color: transparent;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.hidden,
+[hidden] {
+  display: none;
+}
+
+:target {
+  display: flex !important;
+}

@@ -1,0 +1,17 @@
+@keyframes blink {
+  from {
+    opacity: 0.1;
+  }
+  to {
+    opacity: 0.99;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(0%);
+  }
+  to {
+    transform: translateY(-100%);
+  }
+}
