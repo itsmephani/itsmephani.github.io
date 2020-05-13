@@ -12,6 +12,6 @@
     transform: translateY(0%);
   }
   to {
-    transform: translateY(calc(-100% + 3.5rem));
+    transform: translateY(calc(-100% + 2.56rem));
   }
 }
