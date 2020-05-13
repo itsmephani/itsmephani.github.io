@@ -31,7 +31,6 @@ body.dark {
 }
 
 header {
-  height: 48px;
   border-bottom: 2px solid var(--fade-light);
 }
 
@@ -41,6 +40,11 @@ header {
 
 header a {
   margin: 0 4px;
+}
+
+header,
+footer {
+  height: 48px;
 }
 
 .main-container {
@@ -97,12 +101,12 @@ header a {
 }
 
 .tech-slider {
-  height: 4rem;
+  height: 3rem;
   font-weight: bold;
 }
 
 .tech-slider .slider div {
-  height: 4rem;
+  height: 3rem;
 }
 
 .india {
@@ -112,8 +116,10 @@ header a {
 }
 
 .home-welcome {
-  font-size: 4rem;
+  font-size: 3rem;
   height: 100%;
+  flex-wrap: wrap;
+  align-content: center;
 }
 
 #home:focus,
@@ -209,6 +215,7 @@ header a {
 
 .component {
   display: none;
+  height: calc(100% - 96px);
 }
 
 /* Element whose id is same as url hash. */
