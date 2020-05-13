@@ -24,10 +24,12 @@
   </head>
   <body class="flex layoutColumn column">
     <header class="flex alignCenter justifyCenter pad16">
-      <bold><a data-component="home" href="/#home">P.</a></bold>
+      <b><a href="/#home">P.</a></b>
       <div class="column"></div>
       <div class="pad16">
-        <a data-component="work" href="/#work">Work</a>
+        <a target="_blank" href="./projects/">Projects</a>
+        <a target="_blank" href="./resume.doc/">Resume</a>
+        <a href="/#work">Work</a>
       </div>
       <div>
         <div
@@ -45,9 +47,13 @@
       </div>
     </header>
     <!-- <canvas id="canvas"> </canvas> -->
-    <div class="flex layoutColumn pad32 column component" id="home">
+    <div
+      tabindex="0"
+      class="flex layoutColumn pad32 column component"
+      id="home"
+    >
       <div class="title">Phani</div>
-      <div class="flex">
+      <div class="flex justifyCenter alignCenter home-welcome">
         developer in &nbsp;
         <div class="slider-container tech-slider">
           <div class="slider">
@@ -65,32 +71,54 @@
       </div>
     </div>
 
-    <div class="flex layoutColumn pad32 column component" id="work">
+    <div tabindex="0" class="flex layoutColumn column component" id="work">
       <div class="title">Work</div>
       <div class="column timeline-container">
         <div class="flex timeline">
-          <div class="timeline-point">
+          <div class="timeline-point" data-year="'20">
             <div class="subtitle">2020</div>
             <div>Optum a UHG Company</div>
             <div>
               Scala, Angular, React.
             </div>
+            <p>
+              <b>Software Engineer Lead</b> at Optum Global Solutions.<br />
+              Working on Rally Health Applications<br />
+              Building apps helps to overcome real world scenarios like weight
+              loss, <br />
+              health tracking, quitting tobacco, living with diabetis and
+              others.
+            </p>
           </div>
-          <div class="timeline-point">
+          <div class="timeline-point" data-year="'18">
             <div class="subtitle">2018-20</div>
             <div>Citicorp a Citibank Company</div>
             <div>
               .Net, Angular, React, Grafana.
             </div>
+            <p>
+              <b>Manager</b> at Citicorp Services India Private Limited.<br />
+              Worked on multiple applications dealing with Forieng Exchange.<br />
+              Applications are helpful for predicting the future prices<br />
+              with respect to another currency.
+            </p>
           </div>
-          <div class="timeline-point">
+          <div class="timeline-point" data-year="'15">
             <div class="subtitle">2015-18</div>
             <div>HCL at client Google</div>
             <div>
               Angular, Wiz.
             </div>
+            <p>
+              <b>Technical Lead</b> at HCL Technologies Limited with client
+              Google.<br />
+              Worked on multiple internal applications at Google.<br />
+              Applications are used for quality analysis of the customer
+              support,<br />
+              AD reviewing tool etc.
+            </p>
           </div>
-          <div class="timeline-point">
+          <div class="timeline-point" data-year="'15">
             <div class="subtitle">2015</div>
             <div>
               <div>
@@ -98,29 +126,125 @@
                 <div>
                   Angular, Ruby, Rails, Ionic, PHP, Wordpress.
                 </div>
+                <p>
+                  <b>Senior Software Engineering</b> at Brightsparks Software
+                  Private Limited.<br />
+                  Worked on multiple application for client in US and
+                  Ireland.<br />
+                  Applications built belong to various domains include
+                  E-Commerce, Sports, Hotel Booking<br />
+                  Developed Complete Web Apps and Ionic mobile apps.
+                </p>
               </div>
               <div>
                 <div>Yopickup</div>
                 <div>
-                  Founding member.
+                  Ruby, Rails.
                 </div>
+                <p>
+                  <b>Founding member</b> at Yopickup .<br />
+                  Yopickup is a Ridesharing mobile app <br />
+                  Build API for the APP.
+                </p>
               </div>
             </div>
           </div>
-          <div class="timeline-point">
+          <div class="timeline-point" data-year="'14">
             <div class="subtitle">2014-15</div>
             <div>Heresy Infotech</div>
             <div>
               Angular, Ruby, Rails, Ionic, PHP, Wordpress.
             </div>
+            <p>
+              <b>Software Engineer</b> at Heresy Infotech Private Limited.<br />
+              Built applications in various domains includes E-Commerce, Online
+              examinations, <br />
+              Point of Sale etc.
+            </p>
           </div>
-          <div class="timeline-point">
+          <div class="timeline-point" data-year="'12">
             <div class="subtitle">2012-14</div>
             <div>C Family</div>
             <div>
               Java, PHP.
             </div>
+            <p>
+              <b>Software Developer</b> at C Family.<br />
+              Build applications in domains includes Student management,<br />
+              Point of Sale etc.
+            </p>
           </div>
+          <div class="timeline-point" data-year="'12">
+            <div class="subtitle">2012</div>
+            <div>Bachelors in Electronics and Computer Engineering</div>
+            <p>
+              Completed Bachelors from P.V.P Siddhartha Institute of Technology, </br>
+              with an aggregate of 76%.
+            </p>
+          </div>
+          <div class="timeline-point" data-year="'91">
+            <div class="subtitle">1991</div>
+            <div>Hello World!</div>
+          </div>
+        </div>
+      </div>
+      <div class="timeline-overview flex">
+        <div class="timeline-overview__point-indicator"></div>
+        <div
+          role="button"
+          data-index="0"
+          class="timeline-overview__point pointer selected"
+        >
+          2020
+        </div>
+        <div
+          role="button"
+          data-index="1"
+          class="timeline-overview__point pointer"
+        >
+          2018-20
+        </div>
+        <div
+          role="button"
+          data-index="2"
+          class="timeline-overview__point pointer"
+        >
+          2015-18
+        </div>
+        <div
+          role="button"
+          data-index="3"
+          class="timeline-overview__point pointer"
+        >
+          2015
+        </div>
+        <div
+          role="button"
+          data-index="4"
+          class="timeline-overview__point pointer"
+        >
+          2014-15
+        </div>
+        <div
+          role="button"
+          data-index="5"
+          class="timeline-overview__point pointer"
+        >
+          2012-14
+        </div>
+        <div
+          role="button"
+          data-index="6"
+          class="timeline-overview__point pointer"
+        >
+          2012
+        </div>
+        <div
+          role="button"
+          data-index="7"
+          class="timeline-overview__point pointer"
+        >
+          1991
         </div>
       </div>
     </div>
