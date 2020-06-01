@@ -150,6 +150,8 @@ footer {
   padding: 16px;
   border-radius: 2px;
   position: relative;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
 .dark .timeline .timeline-point {
@@ -161,7 +163,7 @@ footer {
   color: var(--fade-light);
   position: absolute;
   right: -1rem;
-  bottom: -3rem;
+  bottom: 0;
   font-size: 12rem;
   opacity: 0.44;
   font-weight: bold;
