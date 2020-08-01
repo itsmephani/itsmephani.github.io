@@ -71,7 +71,7 @@ a, a:hover, a:visited, a:focus, a:active {
 sidebar {
   display: flex;
   height: 100%;
-  background-color: #f5f7f9;
+  background-color: #f9f9f9;
   border-right: 1px solid #2EC4B6;
   position: fixed !important;
 }
@@ -101,7 +101,7 @@ profile projects {
 
 profile projects project {
   border-left: 1px solid #34cdd3;
-  background: #f5f7f9;
+  background: #f9f9f9;
   margin: 10px 0;
   padding-bottom: 10px;
   border-radius: 2px;
