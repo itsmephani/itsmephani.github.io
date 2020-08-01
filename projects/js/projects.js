@@ -1,6 +1,16 @@
 (function () {
   var projects = [
     {
+      NAME: "Client Configuration",
+      COMPANY: "Optum Global Solutions",
+      CLIENT: "",
+      SPAN: "27/04/2020 - Present",
+      RESPONSIBILITIES: "Scala API and Angular UI.",
+      LINK: "",
+      DESCRIPTION: `Building apps helps to overcome real world scenarios like weight loss, 
+                    health tracking, quitting tobacco, living with diabetis and others.`,
+    },
+    {
       NAME: "SCP",
       COMPANY: "CitiCorp Services",
       CLIENT: "",
