@@ -17,11 +17,9 @@
       SPAN: "06/01/2020 - 22/04/2020",
       RESPONSIBILITIES: "WPF application, done integration and UI.",
       LINK: "",
-      DESCRIPTION: `Instrumentation helps in getting metrics of all 
-                    the application processes installed in user’s machine. 
-                    It has all the configurable features like which processes 
-                    to be tracked and gather metrics from, types of metrics to be tracked, 
-                    publish interval etc.`,
+      DESCRIPTION: `SCP is the legacy application built with .Net, WPF. 
+                    Application helps users to foresee currency pair prices and different events
+                    which affect the future trades. Application depicts the trend of prices in charts.`,
     },
     {
       NAME: "Instrumentation",
